@@ -32,10 +32,10 @@ Requests are authenticated using the `Authorization` header with a valid JWT. We
   POST api/auth/login - Signin  <br/>
   
 - Passowds routes: <br/>
-  POST api/passwords/ - Create a Passowds with website name  <br/>
-  GET api/passwords - Get all website names with there password in encrypted  <br/>
+  POST api/passwords/ - Create a Passwods with website name  <br/>
+  GET api/passwords - Get all website names with there password in encrypted manner <br/>
   GET api/passwords/:id - Get a particular website name with password in decrypted manner  <br/>
-  PUT api/passwords/:id - Update website name and password  <br/>
-  DELETE api/passwords/:id - Delete website name with password  <br/>
+  PUT api/passwords/:id - Update website name and password of Particular userid  <br/>
+  DELETE api/passwords/:id - Delete website name with password of Particular userid <br/>
 
 <br />
