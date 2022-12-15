@@ -23,5 +23,8 @@ To get the Node server running locally:
 
 Requests are authenticated using the `Authorization` header with a valid JWT. We define two express middlewares in `middleware/auth.js` that can be used to authenticate requests. The `required` middleware configures the `express-jwt` middleware using our application's secret and will return a 401 status code if the request cannot be authenticated. The payload of the JWT can then be accessed from `req.payload` in the endpoint. The `optional` middleware configures the `express-jwt` in the same way as `required`, but will *not* return a 401 status code if the request cannot be authenticated.
 
+## To Test API's
+- Install Postman or any API testing application. You can visit: https://www.postman.com/downloads/
+- Open Postman and enter any API endpoints mentioned below:
 
 <br />
