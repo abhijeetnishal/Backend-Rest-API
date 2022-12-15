@@ -26,5 +26,16 @@ Requests are authenticated using the `Authorization` header with a valid JWT. We
 ## To Test API's
 - Install Postman or any API testing application. You can visit: https://www.postman.com/downloads/
 - Open Postman and enter any API endpoints mentioned below:
+- List of available routes: <br/>
+- Auth routes: <br/>
+  POST api/auth/signup - Signup <br/>
+  POST api/auth/login - Signin  <br/>
+  
+- Passowds routes: <br/>
+  POST api/passwords/ - Create a Passowds with website name  <br/>
+  GET api/passwords - Get all website names with there password in encrypted  <br/>
+  GET api/passwords/:id - Get a particular website name with password in decrypted manner  <br/>
+  PUT api/passwords/:id - Update website name and password  <br/>
+  DELETE api/passwords/:id - Delete website name with password  <br/>
 
 <br />
